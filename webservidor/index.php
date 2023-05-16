@@ -27,8 +27,12 @@
         require('./views/login.view.php');
     }
     $rotas =[
-        "\trabalho" => "contoller\trabalho_controller.php",
-        "\usuario" => "controller\usuario_controller.php"];
+        "\trabalho" => "views\trabalhos_views.php",
+        "\usuario" => "views\usuario_views.php",
+        "\caduser" => "views\cadastrousuario_views.php",
+        "\cadtrabalho" => "views\cadastrotrabalho_views.php",
+        "\login" => "views\login_views.php"
+    ];
     $url = $_SERVER["REQUEST_URI"];
     if(array_key_exists($url, $rotas)):
         requere($rotas[$url]);
