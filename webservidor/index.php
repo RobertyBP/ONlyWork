@@ -26,6 +26,15 @@
     }else if($acao == "logar"){
         require('./views/login.view.php');
     }
+    $rotas =[
+        "\trabalho" => "contoller\trabalho_controller.php",
+        "\usuario" => "controller\usuario_controller.php"];
+    $url = $_SERVER["REQUEST_URI"];
+    if(array_key_exists($url, $rotas)):
+        requere($rotas[$url]);
+    else:
+        echo "  Erro 404! Página não existe ";
+    endif;
 ?>
 
     
