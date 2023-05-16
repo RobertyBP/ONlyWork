@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1330px;
+    overflow-x: hidden;
+}
+header{
+    border: 1px solid rgb(170, 168, 168);
+    margin: 10px;
+    margin-bottom: 0px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.24), 0 2px 10px 0 rgba(0,0,0,0.19);
+    overflow-x: visible;
+}
+header h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#menu{
+    border: 1px solid rgb(170, 168, 168);
+    margin-top: 30px;
+    height: 36px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-bottom: none;
+}
+#menu a button{
+    position: relative;
+    padding: 0%;
+    width: 124px;
+    height: 35px;
+    font-size: 14px;
+    border: none;
+    border-left: 1px solid rgb(148, 148, 148);
+    border-right: 1px solid rgb(148, 148, 148);
+    font-weight: bold;
+}
+#menu a button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #2f3dbd;
+    color: rgb(255, 255, 255);
+}
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid rgb(170, 168, 168);
+    border-top: none;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.24), 0 2px 10px 0 rgba(0,0,0,0.19);
+    padding-top: 15px;
+}
+.container h2{
+    margin: 0px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.novotrabalho{
+    padding-left: 25px;
+    padding-right: 20px;
+    border: 1px solid rgb(170, 168, 168);
+    width: 600px;
+    height: 265px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24), 0 2px 6px 0 rgba(0,0,0,0.19);
+}
+.tituloTrabalho{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.propostasTrabalho{
+    position: relative;
+    top: -30px;
+    left: 205px;
+}
+.dataEntregaTrabalho{
+    position: relative;
+    top: -30px;
+    left: 380px;
+}
+#containerdescricao{
+    position: relative;
+    top: -15px;
+    width: 540px;
+    overflow: hidden;
+    height: 63px;
+}
+#containerlistatrabalhos{
+    height: 740px;
+    margin-bottom: 35px;
+}
+#containercards{
+    height: 620px;
+    width: 625px;
+    position: relative;
+    left: 130px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 0px;
+    border: 1px solid rgb(170, 168, 168);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.txtDescricao{
+   margin: 0px;
+   margin-top: 0px;
+}
+#txtDescricaoCadastro{
+    word-break: break-all;
+}
+.btnDescricao{
+    position: relative;
+    top: -48px;
+    left: -20px;
+    float: right;
+    background: none;
+	color: blue;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 13px;
+}
+.requisitosTrabalho{
+    position: relative;
+    top: -5px;
+}
+.valorPagamentoTrabalho{
+    position: relative;
+    left: 355px;
+    top: -35px;
+}
+.autorTrabalho{
+    position: relative;
+    top: -20px;
+}
+
+
+#formulariosnovotrabalho{
+    width: 540px;
+    height: 350px;
+    position: relative;
+    float: right;
+    top: -260px;
+    left: -50px;
+    border: 1px solid rgb(170, 168, 168);
+    padding: 35px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24), 0 2px 6px 0 rgba(0,0,0,0.19);
+}
+#indiceFormularios{
+    margin: 0px; 
+    position: relative; 
+    top: -10px; 
+    text-align: center; 
+    font-weight: bold;
+
+}
+#tituloFormularios{
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+}
+#tituloFormularios input{
+    width: 430px;
+    width: 420px; 
+    position: relative; 
+    left: 5px;
+}
+#valorPagamentoFormularios{
+    position: relative;
+    top: -24px;
+    left: 280px;
+}
+#valorPagamentoFormularios p{
+    font-weight: bold;
+}
+
+#valorPagamentoFormularios input{
+    position: relative;
+    top: -31px;
+    left: 90px;
+    width: 100px;
+}
+#descricaoFormularios p{
+    position: relative;
+    margin-top: 10px;
+    font-weight: bold; 
+    text-align: center;
+}
+#descricaoFormularios textarea{
+    position: relative;
+    margin-top: -10px;
+    width: 470px;
+}
+#requisitosFormularios{
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+#requisitosFormularios input{
+    position: relative;
+    width: 320px;
+    width: 180px;
+}
+#dataEntregaFormularios {
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+}
+#dataEntregaFormularios input {
+    width: 100px;
+}
+#enviarFormularios p{
+    position: relative;
+    top: -73px;
+    font-weight: bold;
+    left: 200px;
+}
+
+#enviarFormularios button{
+    float: right;
+    position: relative;
+    top: -110px;
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+    border-radius: 14px;
+    border: none;
+    background-color: #2f3dbd;
+    color: white;
+    
+}
+#enviarFormularios button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #1d2678;
+}
+#candidatarse button{
+    float: right;
+    position: relative;
+    top: -55px;
+    font-size: 15px;
+    height: 30px;
+    width: 120px;
+    border-radius: 14px;
+    border: none;
+    background-color: #2f3dbd;
+    color: white;
+    
+}
+#candidatarse button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #1d2678;
+}
+
+.cardlogin{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 400px;
+    top: 40px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.cardlogin button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #121955;
+    color: rgb(255, 255, 255);
+    
+}
+
+.botaologin{
+    width: 120px; 
+    height: 40px; 
+    left: 190px;
+    position: absolute;          
+    top: 400px; 
+    font-weight: bold; 
+    font-size: 16px; 
+    border-radius: 15px; 
+    border: none;            
+    background-color: #2f3dbd;
+    color: rgb(255, 255, 255);
+}
+
+#containerlogin{
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.24), 0 2px 10px 0 rgba(0,0,0,0.19);
+    border: 1px solid rgb(170, 168, 168);  
+    height: 570px;
+    margin-bottom: 15px;
+    background-color: rgb(240, 240, 240);
+}
