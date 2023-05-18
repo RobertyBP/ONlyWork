@@ -1,0 +1,9 @@
+{
+    "authors": [
+        {"name": "Roberty Brum Pereira"}
+    ],
+    "autoload": {
+        "classmap": ["../models"]
+    },
+    "require": {}
+}
