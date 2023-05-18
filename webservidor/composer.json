@@ -1,5 +1,7 @@
 {
     "authors": [
+        {"name": "Denner Ribas Amaral"},
+        {"name": "Murillo Iago"},
         {"name": "Roberty Brum Pereira"}
     ],
     "autoload": {
