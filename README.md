@@ -24,12 +24,20 @@ instalação caso tenha baixado o projeto
 execultar o projeto
 	> http://localhost/webservidor/index.php;
 	
+obs: 
+
+	Para cadastrar um novo usuario é necesario que o nome tenha no minimo 7 caracteres assim como a senha.
+	
 oque cada um fez?
 
 	Murillo :
-		ajudou a migrar o sistema para o padrão MVC, e mudou o sistema para orientado a objeto e  implementou o PDO.
+		ajudou a migrar o sistema para o padrão MVC, 
+		e mudou o sistema para orientado a objeto e  
+		implementou o PDO.
 	Denner : 
-		ajudou a migrar o sistema e implementação das rotas. 
+		ajudou a migrar o sistema e 
+		implementação das rotas. 
 	Roberty : 
-		ajudou a migrar o sistema e implementou o composer.
+		ajudou a migrar o sistema e 
+		implementou o composer.
 
