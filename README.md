@@ -24,7 +24,10 @@ execultar o projeto
 	> http://localhost/webservidor/index.php;
 	
 oque cada um fez?
-	Murillo :  ajudou a migrar o sistema para o padrão MVC, e mudou o sistema para orientado a objeto e  implementou o PDO.
-	Denner : ajudou a migrar o sistema e implementação das rotas. 
-	Roberty :  ajudou a migrar o sistema e implementou o composer.
+	Murillo :
+		ajudou a migrar o sistema para o padrão MVC, e mudou o sistema para orientado a objeto e  implementou o PDO.
+	Denner : 
+		ajudou a migrar o sistema e implementação das rotas. 
+	Roberty : 
+		ajudou a migrar o sistema e implementou o composer.
 
