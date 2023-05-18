@@ -12,13 +12,14 @@ funcionalidades faltantes
 	rotas não funcionais.
 
 instalação caso tenha baixado o projeto
-	1-brir o xampp;
-	2-de start no Apache e no Mysql;
-	3-insira este comando na bara de busca do seu navegador preferido -> http://localhost/phpmyadmin/;
-	4-crie um banco com este nome -> onlyworks;
-	5-com o banco criado, va ate o botão "importar" e importe o arquivo sql anexo por nome onlyworks;
-	6-em outra aba, abra a pagina usando o caminho -> http://localhost/webservidor/index.php;
-	7-você esta pronto para testar o projeto.
+
+		1-brir o xampp;
+		2-de start no Apache e no Mysql;
+		3-insira este comando na bara de busca do seu navegador preferido -> http://localhost/phpmyadmin/;
+		4-crie um banco com este nome -> onlyworks;
+		5-com o banco criado, va ate o botão "importar" e importe o arquivo sql anexo por nome onlyworks;
+		6-em outra aba, abra a pagina usando o caminho -> http://localhost/webservidor/index.php;
+		7-você esta pronto para testar o projeto.
 
 oque cada um fez?
 	Murillo :  ajudou a migrar o sistema para o padrão MVC, e mudou o sistema para orientado a objeto e  implementou o PDO.
