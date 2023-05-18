@@ -4,17 +4,14 @@ membros do grupo:
 	Murillo Iago Moreira
 	Roberty Brum Pereira
 
-feature 
-
-	login dever ser realizado mesmo que ja tenha sido feito o cadastramento de um usuario.
 
 funcionalidades faltantes
 
-	a função enviar proposta na pagina trabalhos.php
-	e a função ver perfil na pagina usuarios.php
+	a função enviar proposta na pagina trabalhos.php;
+	falta um perfil de usuário;
+	rotas não funcionais.
 
-instalação
-	0- salve o arquivo webservidor no C:/xampp/htdocs, caso esteja no windons;
+instalação caso tenha baixado o projeto
 	1-brir o xampp;
 	2-de start no Apache e no Mysql;
 	3-insira este comando na bara de busca do seu navegador preferido -> http://localhost/phpmyadmin/;
@@ -24,7 +21,7 @@ instalação
 	7-você esta pronto para testar o projeto.
 
 oque cada um fez?
-	Murillo : banco de dados e paginas relacioanadas a trabalho.
-	Denner : homepage e perfil de usuario(nãofuncional) e deu reviews sobre a exibição das paginas.
-	Roberty : banco de dados e paginas relacionadas a usuario.
+	Murillo :  ajudou a migrar o sistema para o padrão MVC, e mudou o sistema para orientado a objeto e  implementou o PDO.
+	Denner : ajudou a migrar o sistema e implementação das rotas. 
+	Roberty :  ajudou a migrar o sistema e implementou o composer.
 
