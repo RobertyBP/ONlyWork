@@ -20,7 +20,8 @@ instalação caso tenha baixado o projeto
 		5-com o banco criado, va ate o botão "importar" e importe o arquivo sql anexo por nome onlyworks;
 		6-em outra aba, abra a pagina usando o caminho -> http://localhost/webservidor/index.php;
 		7-você esta pronto para testar o projeto.
-
+execultar o projeto
+	> http://localhost/webservidor/index.php;
 oque cada um fez?
 	Murillo :  ajudou a migrar o sistema para o padrão MVC, e mudou o sistema para orientado a objeto e  implementou o PDO.
 	Denner : ajudou a migrar o sistema e implementação das rotas. 
